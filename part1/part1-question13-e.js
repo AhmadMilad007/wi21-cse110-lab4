@@ -1,0 +1,1 @@
+console.log(ture===Boolean(2))

@@ -11,8 +11,10 @@ let student = {
 
     };
 
-console.log(student.name());
-    
-
+console.log(student.name);  
+console.log(student["Grade Year"]);
+student.greeting();
+console.log(student["Favorite Teacher"].name);
+console.log(student.courseLoad[0]);
 
 
