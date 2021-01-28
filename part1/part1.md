@@ -50,3 +50,13 @@
 
 ## Question16:
 	- The main difference between == and === is the way these two compare data types. When we compare two variables using ==, their data type is being ignored. However, if we compare two variables using ===, then their datatype is not ignored i.e === checks the datatype of the variables and then compares the values. 
+## Question17:
+	- The output of this code snip is: how are you?, it's because in JavaScript all values are 'truthly' or if they are encountered in a boolean contex, unless they defined as false, except for false, 0, -0, "", null, undefined, and NaN, in the first if block we are using == to compare if 2==true, since == does not concider the type of the variables, it converts between types to find the match, it is basically checking if 2==1 which is not true, so code jumps to if-else block, here since the aregument is if else (2), 2 is concidered truthy- described in the first line, 2 is true because we do not specify it to be false, therefore the code inside the if else (2) {....} block is being executed. 
+## Question19: 
+	- modifyArray will return an array with the following values:[6,8,10]. when we are passing the [1,2,3] array and the doSomething function to the modifyArray function, inside this function we have a temp array (newArr) to keep track of the new values, and we have a for loop that runs 3 times (length of the array, [1,2,3] array) at each iteration of this loop, in line 4 we are passing the array at index i, to the doSomething function to add +2 to the i value, and then we multiplie the returned result by 2 in line 5, and finaly we push the calculated result to our temp array (newArr), so after the for loop is completed we return the newArr which includes the calculated values from the function calls in the for loop. 
+
+## Question21: 
+	- The output of the code snip is: 1
+					  4	
+					  3
+					  2
