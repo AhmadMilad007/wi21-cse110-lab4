@@ -1,18 +1,15 @@
-function modifyArray(array,callback){
-    const newArr = [];
-    for (let i =0; i < array.length; i++){
-        newArr.push (callback (array[i], function(x){
-            return x * 2;
-        }));
+let statistics = {
+    redCars: 21,
+    blueCars: 45,
+    greenCars: 12,
+    raceCars: 5,
+    blackCars: 40,
+    rareCars: 2,
+}
+
+for (values in statistics){
+   let  x = (statistics[values]%2);
+   if (values[0]=='r' || x != 0 ){
+       console.log(statistics[values]);
     }
-    return newArr;
-}
-
-function doSomething (num, callback){
-    return callback(num+2);
-}
- 
-for (let i = 0 ; i < modifyArray([1,2,3], doSomething).length; i++){
-
-    console.log(modifyArray([1,2,3], doSomething)[i]);
 }
