@@ -1,5 +1,13 @@
 
 
+![Screenshot](https://github.com/AhmadMilad007/wi21-cse110-lab4/blob/main/part3/image1.PNG "screenshot")
+![Screenshot](https://github.com/AhmadMilad007/wi21-cse110-lab4/blob/main/part3/image2.PNG "screenshot")
+![Screenshot](https://github.com/AhmadMilad007/wi21-cse110-lab4/blob/main/part3/image3.PNG "screenshot")
+![Screenshot](https://github.com/AhmadMilad007/wi21-cse110-lab4/blob/main/part3/bugfix.PNG "screenshot")
+
+
+
+
 ## Question 1:
 	- The bug is that in line number 9 of the calculateSum, num1 and num2 are treated as strings, so when we use +  sign to add the two variables they are simply concatenated to each other instead of calculating their sum. 
 ## Question 2: 
